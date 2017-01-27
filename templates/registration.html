@@ -1,0 +1,73 @@
+<ion-view view-title="registration" align-title="left">
+    <ion-content>
+        <div class="style-registration">
+            <div class="hero flat style-margin-top">
+                <div class="content">
+                    <h3 class="title-app style-position-header-title">Registrierung</h3>
+                </div>
+            </div>
+            <div class="list style-margin-bottom-decrease">
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Vorname</span>
+                    <input ng-model="first_name" class="style-color-items" type="text" placeholder="Vorname">
+                    <i class="icon mdi-social-person-outline style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Nachname</span>
+                    <input ng-model="last_name" class="style-color-items" type="text" placeholder="Nachname">
+                    <i class="icon mdi-social-person-outline style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Email</span>
+                    <input ng-model="email" class="style-color-items" type="email" placeholder="Email">
+                    <i class="icon mdi-communication-email style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Gender</span>
+                    <input id="registration-input-gender" ng-model="gender" ng-focus="onSelectGender()" class="style-color-items" type="text" placeholder="Gender">
+                    <i class="icon mdi-communication-email style-align-icon-to-input"></i> 
+                </label>
+               
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Username</span>
+                    <input ng-model="username" class="style-color-items" type="text" placeholder="Username">
+                    <i class="icon mdi-communication-email style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left" >
+                    <span class="input-label royal">Passwort</span>
+                    <input ng-model="password" class="style-color-items" type="password" placeholder="Passwort">
+                    <i class="icon mdi-action-lock-outline style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left" >
+                    <span class="input-label royal">Passwort Wiederholung</span>
+                    <input ng-model="passwordConfirm" class="style-color-items" type="password" placeholder="Passwort Wiederholung">
+                    <i class="icon mdi-action-lock-outline style-align-icon-to-input"></i> 
+                </label>
+            </div>
+
+            <div class="row">          
+              <div class="input-field col-60 registration-text">
+                  <input ng-model="agreement" type="checkbox" id="registration-agreement" value="false" />
+                  <label for="registration-agreement">Ich akzeptiere die</label>
+              </div>
+              <i ng-click="showAgreement()" class="col-40 button button-small button-clear button-calm style-position-agreement">AGB's</i>
+            </div>
+
+            <div class="row ">
+                <button ng-click="onRegister()" class="button button button-block button-royal"> Jetzt registrieren </button> 
+            </div>
+
+            <div class="row">          
+              <label class="col style-text-align" >Ich habe schon ein Konto 
+                <button ng-click="gotoLogin()" class="col-30 button button-small button-clear button-calm style-position-back-login" >Login</button>
+              </label>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

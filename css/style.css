@@ -1,0 +1,327 @@
+/*===============style-login===================*/
+.style-login .forgot-password.possition{
+    float: right;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.style-login .style-padding-left {
+    padding-left: 60px;
+    padding-right: 39px;
+    border-bottom: none !important;
+    position: relative;
+}
+
+.style-login .style-padding-left:before {
+    position: absolute;
+    left: 60px;
+    right: 15px;
+    bottom: 5px;
+    height: 1px;
+    background-color: #9e9e9e;
+    content: '';
+    z-index: -1;
+}
+
+.style-login .style-align-icon-to-input:before{
+    position: relative;
+    bottom: -10px;
+}
+
+.style-login .style-button-smaller {
+    font-size: 10px;
+}
+/*input.style-color-items[type=text]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=password]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=email]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=url]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=time]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=date]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=datetime-local]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=tel]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=number]:focus:not([readonly]) ~ .icon, 
+input.style-color-items[type=search]:focus:not([readonly]) ~ .icon,  
+textarea.style-color-items.materialize-textarea:focus:not([readonly]) ~ .icon */
+
+.style-login input.style-color-items[type=text]:focus ~ .icon,
+.style-login input.style-color-items[type=password]:focus ~ .icon{
+    color: #ff4081;   
+}
+
+/*.item-floating-label .input-label {
+    color: #ff4081;    .style-login 
+}*/
+
+.style-login .title-app {
+    color: #000;
+    text-shadow: 0 1px 0px #9e9e9e;
+}
+
+.style-login .style-margin-top {
+    height: 105px;
+}
+
+.style-login .style-margin-bottom-decrease {
+    margin-bottom: -45px;
+}
+
+/*=====================style-registration==========================*/
+
+
+.style-registration .forgot-password.possition{
+    float: right;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.style-registration .style-padding-left {
+    padding-left: 60px;
+    padding-right: 39px;
+    border-bottom: none !important;
+    position: relative;
+}
+
+.style-registration .style-padding-left:before {
+    position: absolute;
+    left: 60px;
+    right: 15px;
+    bottom: 5px;
+    height: 1px;
+    background-color: #9e9e9e;
+    content: '';
+    z-index: -1;
+}
+
+.style-registration .style-align-icon-to-input:before{
+    position: relative;
+    bottom: -10px;
+}
+
+.style-registration .style-button-smaller {
+    font-size: 10px;
+}
+
+.style-registration input.style-color-items[type=text]:focus ~ .icon,
+.style-registration input.style-color-items[type=password]:focus ~ .icon,
+.style-registration input.style-color-items[type=email]:focus ~ .icon{
+    color: #ff4081;   
+}
+
+/*.item-floating-label .input-label {
+    color: #ff4081;    .style-login 
+}*/
+
+.style-registration .title-app {
+    color: #000;
+    text-shadow: 0 1px 0px #9e9e9e;
+}
+
+.style-registration .style-margin-top {
+    height: 110px;
+}
+
+.style-registration .style-margin-bottom-decrease {
+    margin-bottom: -10px;
+}
+
+.style-registration .style-position-agreement {
+    position: relative;
+    top: 25px;
+    left: 15px;
+    line-height: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.style-registration .style-text-align {
+    text-align: center;
+}
+
+.style-registration .style-position-back-login {
+    position: relative;
+    top: 0px;
+    line-height: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.style-registration  .style-position-header-title {
+    position: relative;
+    top: -20px;    
+}
+
+.style-modal-agreement .style-small-link {
+    font-size: 10px !important;
+    margin-top: 7px;
+}
+
+.style-modal-agreement  .style-position-left {
+
+}
+
+.style-modal-agreement  .style-position-right {
+    position: relative;
+    right: -18px;
+}
+
+.style-modal-agreement  .style-checkbox-font {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.style-modal-agreement  .style-button-group-right {
+    position: relative;
+    left: -65px;
+}
+
+.style-modal-agreement  .style-checkbox-font:before {
+    left: 5px;
+}
+
+
+.popover-backdrop.active .popover {
+    min-height: 190px;
+    height: auto;
+}
+
+
+/*=====================ForgotPassword===========================*/
+
+
+.style-forgotpassword .forgot-password.possition{
+    float: right;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.style-forgotpassword .style-padding-left {
+    padding-left: 60px;
+    padding-right: 39px;
+    border-bottom: none !important;
+    position: relative;
+}
+
+.style-forgotpassword .style-padding-left:before {
+    position: absolute;
+    left: 60px;
+    right: 15px;
+    bottom: 5px;
+    height: 1px;
+    background-color: #9e9e9e;
+    content: '';
+    z-index: -1;
+}
+
+.style-forgotpassword .style-align-icon-to-input:before{
+    position: relative;
+    bottom: -10px;
+}
+
+.style-forgotpassword .style-button-smaller {
+    font-size: 10px;
+}
+
+.style-forgotpassword input.style-color-items[type=text]:focus ~ .icon,
+.style-forgotpassword input.style-color-items[type=password]:focus ~ .icon,
+.style-forgotpassword input.style-color-items[type=email]:focus ~ .icon{
+    color: #ff4081;   
+}
+
+/*.item-floating-label .input-label {
+    color: #ff4081;    .style-login 
+}*/
+
+.style-forgotpassword .title-app {
+    color: #000;
+    text-shadow: 0 1px 0px #9e9e9e;
+}
+
+.style-forgotpassword .style-position-agreement {
+    position: relative;
+    top: 25px;
+    left: 15px;
+    line-height: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.style-forgotpassword .style-text-align {
+    text-align: center;
+}
+
+.style-forgotpassword .style-position-back-login {
+    position: relative;
+    top: 0px;
+    line-height: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.style-forgotpassword  .style-position-header-title {
+    position: relative;
+    top: 0px;    
+}
+
+.style-forgotpassword .desc{
+    color: #000;
+}
+
+.style-forgotpassword .style-position-relative {
+    position: relative;
+}
+
+.style-forgotpassword .style-position-relative .style-float-right {
+    position: absolute;
+    right: 0px;
+}
+
+.style-forgotpassword .style-margin-top {
+    margin-top: 35px;
+}
+
+.style-privatedesktop .border-radius-icon {
+    border-radius: 10px;
+}
+.style-privatedesktop .font-size-icons {
+    font-size: 60px;
+}
+.style-privatedesktop .text-align-center {
+    text-align: left;
+    margin-top: 13px;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.style-privatedesktop .business_comapany_icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.style-privatedesktop .icon-size {
+    width: 97px;
+    height: 97px;
+}
+
+.style-privatedesktop .position-arrow {
+    top: 11px;
+    right: 2px;
+    position: absolute;
+}
+
+.style-privatedesktop .no-padding {
+    padding: 0px;
+}
+.style-privatedesktop .no-margin {
+    margin: 0px;
+}
+
+
+.jml-login-notification .popup {
+    background-color: #444;
+}
+
+.jml-login-notification  input[type=radio]:checked + .item-content {
+  color: #444;
+} 

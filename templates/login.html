@@ -1,0 +1,44 @@
+<ion-view view-title="Login" align-title="left"  ng-controller="LoginCtrl">
+    <ion-content>
+        <div class="style-login">
+            <div class="hero flat style-margin-top">
+                <div class="content">
+                    <h1 class="title-app">SOWIDU<!-- SOWIDU --></h1>
+                </div>
+            </div>
+            <div class="list style-margin-bottom-decrease">
+                <label class="item item-input item-floating-label item-icon-left style-padding-left">
+                    <span class="input-label royal">Username or E-mail</span>
+                    <input ng-model="username" class="style-color-items" type="text" placeholder="Username or E-mail">
+                    <i class="icon mdi-social-person-outline style-align-icon-to-input"></i> 
+                </label>
+
+                <label class="item item-input item-floating-label item-icon-left style-padding-left" >
+                    <span class="input-label royal">Password</span>
+                    <input ng-model="password"  class="style-color-items" type="password" placeholder="Password">
+                    <i class="icon mdi-action-lock-outline style-align-icon-to-input"></i> 
+                </label>
+
+                <div class="row">
+                  <div class="col"></div>
+                  <button class="col button button-small style-button-smaller button-clear button-calm" ng-click="forgotPass()">Passwort vergessen?</button>
+                </div>
+            </div>
+
+            <div class="row">          
+              <div class="input-field col login-text">
+                  <input type="checkbox" id="remember-me" />
+                  <label for="remember-me">Angemeldet bleiben</label>
+              </div>
+            </div>
+
+            <div class="row ">
+                <button class="button button button-block button-royal" ng-click="onLoginClick()"> Jetzt anmelden </button> 
+            </div>
+
+            <div class="row">
+                <button class="col button button-small button-clear button-calm" ng-click="gotoRegistration()">Jetzt registrieren</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,108 @@
+<ion-view view-title="Private_desktop">
+  <div class="style-privatedesktop">
+    <div class="bar bar-header bar-calm" style="position: fixed;" ng-class="{expanded: isExpanded, 'has-header-fab-left': hasHeaderFabLeft, 'has-header-fab-right': hasHeaderFabRight}" align-title="left">
+        <div class="buttons buttons-left header-item">
+            <span class="left-buttons">
+                <img src="img/business_company.png" alt="" class="circle responsive-img left mt10 business_comapany_icon">
+            </span>
+        </div>
+        <div class="h1 title title-left light">
+            <h6 class="ml5 mt10  white-text text-darken-1 left">
+            <span>GS Goebel Haustechnik GmbH</span><br>Sebastian Goebel</h6>
+        </div>
+        <div class="buttons buttons-right header-item">
+            <span class="right-buttons">
+                <button class="button button-clear material-icons" ng-click="onOpenSideMenu()">
+                    &#xE5D2;
+                </button>
+            </span>
+        </div>
+    </div>
+    <ion-content class="bar-dark dark-bg">
+<!-- 
+        <div class="list has-header card dark-bg">
+            <div class="row">
+              <div class="col s1">
+                <button class="button button-fab button-light border-radius-icon material-icons font-size-icons icon-size">
+                  <span class="calm">&#xe86e;</span></button>
+                <div class="text-align-center royal">Aufgaben</div>
+              </div>
+              <div class="col s1">
+                <button class="button button-fab button-calm border-radius-icon material-icons font-size-icons icon-size">
+                  <span class="royal-100">&#xE85D;</span></button>
+                <div class="text-align-center royal ">Aufträge</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s1">
+                <button class="button button-fab button-royal border-radius-icon material-icons font-size-icons icon-size">
+                   <span class="calm">&#xE55B;</span></button>
+                <div class="text-align-center calm ">Orte</div>
+              </div>
+              <div class="col s1">
+                <button class="button button-fab button-calm border-radius-icon material-icons font-size-icons icon-size">
+                  <span class="royal"></span></button>
+                <div class="text-align-center calm ">Kontakte</div>
+              </div>
+            </div>
+
+        </div>
+ -->
+      <div class="list has-header ">
+        <div class="row no-margin no-padding">
+           <div class="col s1 no-padding">
+              <ion-card class="card card-ios calm-100-bg  button-fab">
+                <ion-card-content class="card-content card-content-ios material-icons">
+                  <span class="light font-size-icons">&#xe86e;</span>
+                </ion-card-content>
+
+                <ion-item class="item item-block item-ios bar bar-footer bar-calm">
+                   <div class="text-align-center dark">Aufgaben <i class="material-icons position-arrow">&#xE037;</i></div>
+                 </ion-item>
+              </ion-card>
+           </div>
+
+           <div class="col s1 no-padding">
+              <ion-card class="card card-ios calm-100-bg  button-fab">
+                <ion-card-content class="card-content card-content-ios material-icons">
+                  <span class="light font-size-icons">&#xE85D;</span>
+                </ion-card-content>
+
+                <ion-item class="item item-block item-ios bar bar-footer bar-calm">
+                   <div class="text-align-center dark ">Aufträge <i class="material-icons position-arrow">&#xE037;</i></div>
+                 </ion-item>
+              </ion-card>
+           </div>
+        </div>
+
+        <div class="row no-margin no-padding">
+           <div class="col s1 no-padding">
+              <ion-card class="card card-ios royal-100-bg  button-fab">
+                <ion-card-content class="card-content card-content-ios material-icons">
+                  <span class="light font-size-icons">&#xE55B;</span>
+                </ion-card-content>
+
+                <ion-item class="item item-block item-ios bar bar-footer bar-royal">
+                   <div class="text-align-center dark ">Orte <i class="material-icons position-arrow">&#xE037;</i></div>
+                 </ion-item>
+              </ion-card>
+           </div>
+
+           <div class="col s1 no-padding">
+              <ion-card class="card card-ios royal-100-bg  button-fab">
+                <ion-card-content class="card-content card-content-ios material-icons">
+                  <span class="light font-size-icons"></span>
+                </ion-card-content>
+
+                <ion-item class="item item-block item-ios bar bar-footer bar-royal">
+                   <div class="text-align-center dark ">Kontakte <i class="material-icons position-arrow">&#xE037;</i></div>
+                 </ion-item>
+              </ion-card>
+           </div>
+        </div>
+      </div>  
+        
+    </ion-content>
+  </div>
+</ion-view>
